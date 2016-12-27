@@ -3,7 +3,7 @@
 This project allows you to compile a CLI runnable JAR that can change your password (expired works, but not disabled.) on an IBM i system. (AS400/DB2)
 Additionally this project can serve as a template to create a more complicated program for IBM Java Toolkit begginners. 
 
-## Installation
+## Installation / Environment Setup
 
 To set up the environment, you need to use openJDK (java) and JTOpen (IBM Java Toolkit http://www-03.ibm.com/systems/power/software/i/toolbox/downloads.html) Download and install both. 
 
@@ -13,7 +13,7 @@ Add an the openJDK as an alternate JRE in the project:  java-1.8.0-openjdk-1.8.0
 
 Add a user library "jtopen_9_1" referencing \jtopen_9_1\lib\java8\jt400.jar
 
-## Usage
+## Usage / Download Executable File
 
 To use the runnable jar in windows, use the command: 
 
