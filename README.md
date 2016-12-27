@@ -10,7 +10,9 @@ To set up the environment, you need to use openJDK (java) and JTOpen (IBM Java T
 ## Usage
 
 To use the runnable jar in windows, use the command: "java -jar PATH_TO_JAR/AS400PasswordChanger.jar"
-To simply download the runnable jar, click [here](https://github.com/cwg999/AS400PasswordChanger/raw/master/export/AS400PasswordChanger.jar)
+To simply download the runnable jar, click [here.](https://github.com/cwg999/AS400PasswordChanger/raw/master/export/AS400PasswordChanger.jar)
+
+Otherwise, to compile it yourself open the project in Eclipse and right click the project to export and choose "runnable JAR file".
 
 ## Contributing
 
