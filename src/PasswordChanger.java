@@ -1,5 +1,5 @@
 import java.io.IOException;
-import com.ibm.as400.access.AS400; // JTOpen http://www-03.ibm.com/systems/power/software/i/toolbox/downloads.html
+import com.ibm.as400.access.AS400; 
 import com.ibm.as400.access.AS400SecurityException;
 public class PasswordChanger {
 	public static void main(String []args) {
@@ -11,7 +11,10 @@ public class PasswordChanger {
 				System.exit(0);
 			} catch (AS400SecurityException e) {
 				System.out.println(e.toString());
+<<<<<<< HEAD
 				System.exit(0);
+=======
+>>>>>>> branch 'master' of https://github.com/cwg999/AS400PasswordChanger
 			} catch (IOException e) {
 				System.out.println(e.toString());
 				System.exit(0);
