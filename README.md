@@ -1,6 +1,6 @@
 ﻿# AS400Password Changer
 
-This project allows you to compile a CLI runnable JAR that can change your password on an IBM system. (AS400/DB2)
+This project allows you to compile a CLI runnable JAR that can change your password on an IBM i system. (AS400/DB2)
 Additionally this project can serve as a template to create a more complicated program for IBM Java Toolkit begginners. 
 
 ## Installation
