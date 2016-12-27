@@ -5,7 +5,9 @@ Additionally this project can serve as a template to create a more complicated p
 
 ## Installation
 
-To set up the environment, you need to use openJDK (java) and JTOpen (IBM Java Toolkit http://www-03.ibm.com/systems/power/software/i/toolbox/downloads.html)
+To set up the environment, you need to use openJDK (java) and JTOpen (IBM Java Toolkit http://www-03.ibm.com/systems/power/software/i/toolbox/downloads.html) Download and install both. 
+
+Using eclipse, add the import the project via directory import. 
 
 Add an the openJDK as an alternate JRE in the project:  java-1.8.0-openjdk-1.8.0.111-3
 
