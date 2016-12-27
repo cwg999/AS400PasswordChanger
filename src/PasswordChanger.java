@@ -11,10 +11,7 @@ public class PasswordChanger {
 				System.exit(0);
 			} catch (AS400SecurityException e) {
 				System.out.println(e.toString());
-<<<<<<< HEAD
 				System.exit(0);
-=======
->>>>>>> branch 'master' of https://github.com/cwg999/AS400PasswordChanger
 			} catch (IOException e) {
 				System.out.println(e.toString());
 				System.exit(0);
