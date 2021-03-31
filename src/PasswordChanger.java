@@ -11,10 +11,10 @@ public class PasswordChanger {
 				System.exit(0);
 			} catch (AS400SecurityException e) {
 				System.out.println(e.toString());
-				System.exit(0);
+				System.exit(1);
 			} catch (IOException e) {
 				System.out.println(e.toString());
-				System.exit(0);
+				System.exit(2);
 			}	
 		}else{
 			System.out.println("Requires SYSTEMNAME (POWER7.HOSTNAME.DOMAIN.COM), USERNAME, OLDPASSWORD, NEWPASSWORD as inputs.");
